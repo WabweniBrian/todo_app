@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Todo app</title>
+  <!-- My CSS Helper styles -->
+  <link rel="stylesheet" href="assets/css/simplified.css">
+  <!-- Custom stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <main>
+    <!-- Banner Image -->
+    <div class="banner-img"></div>
+    <div class="todo-wrapper mx-auto">
+      <div class="top-nav flex justify-between align-center px-2">
+        <h1 class="text-light">TODO</h1>
+        <div class="icon"></div>
+      </div>
+      <!-- Todo Input Field -->
+      <form action="" id="form">
+        <div class="input-with-icon transparent mt-2">
+          <span></span>
+          <input type="text" name="" class="form-control" placeholder="Create a new todo" id="todoInput">
+        </div>
+      </form>
+
+      <!-- Todos List -->
+      <div class="todo-container">
+        <ul class="todos mt-2">
+        </ul>
+        <div class="todo-actions flex justify-between p-2">
+          <div class="left"><span class="items-left">3 items left</span></div>
+          <div class="middle flex align-center gap-1">
+            <span class="active toggle_todos allTodos">All</span>
+            <span class=" toggle_todos activeTodos">Active</span>
+            <span class="toggle_todos completedTodos">Completed</span>
+          </div>
+          <div class="clear"><span class="clear text-muted">Clear completed</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- -------------Footer---------------- -->
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Wabweni Brian</a>.</p>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
